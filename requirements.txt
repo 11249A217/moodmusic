@@ -1,0 +1,18 @@
+# MoodWave v2.0 – Python dependencies
+# Install: pip install -r requirements.txt
+
+# Web framework
+Flask==3.0.3
+Flask-Cors==4.0.1
+
+# HTTP client (server-side Jamendo proxy)
+requests==2.32.3
+
+# WSGI server for production
+gunicorn==22.0.0
+
+# Environment variable loading from .env file
+python-dotenv==1.0.1
+
+# Optional: AI mood analysis (only needed if ANTHROPIC_API_KEY is set)
+anthropic==0.28.0
